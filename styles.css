@@ -1,0 +1,385 @@
+/* Importando as fontes */
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+/* Arrumando pra não dar nenhum pau de espaçamento de navegador */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ------------ CONSTRUÇÃO DO HEADER ------------ */
+
+.header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 13px 10%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-family: Alexandria, sans-serif;
+}
+
+.minhalogo {
+    width: auto;
+    height: 60px;
+}
+
+.navbar a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    margin-left: 28px;
+}
+
+.header a.active {
+    color: dodgerblue;
+}
+
+/* ------------ FIM DO HEADER ------------ */
+
+.greeting {
+    font-family: Alexandria, sans-serif;
+    background-color: #e8eeff;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    padding-top: 100px;
+    width: 100%;
+    justify-content: center;
+}
+
+.introducao {
+    max-width: 600px;
+    margin-top: -90px;
+}
+
+.introducao h1 {
+    font-family: DM Serif Display, serif;
+    font-size: 70px;
+}
+
+.introducao p {
+    line-height: 1.7;
+}
+
+.minha-foto {
+    height: 600px;
+    width: auto;
+    padding-left: 70px;
+}
+
+.about-me {
+    font-family: Alexandria, sans-serif;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    justify-content: center;
+}
+
+.eu-de-novo {
+    border-radius: 12px;
+    height: 560px;
+    width: auto;
+}
+
+.sobre-mim {
+    padding: 0 3%;
+    color: gray;
+    line-height: 1.7;
+    text-align: justify;
+    max-width: 600px;
+}
+
+.sobre-mim h1 {
+    color: white;
+    font-family: DM Serif Display, serif;
+    font-size: 46px;
+}
+
+.sobre-mim h2 {
+    color: white;
+    font-family: DM Serif Display, serif;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.links2 a {
+    color: white;
+    background-color: #084af3;
+    font-size: 25px;
+    margin-right: 12px;
+    padding: 5px;
+    border-radius: 4px;
+    letter-spacing: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+}
+
+.proposta {
+    font-family: Alexandria, sans-serif;
+    background-color: #e8eeff;
+    align-items: center;
+    padding: 0 10%;
+    padding-top: 80px;
+    padding-bottom: 140px;
+    text-align: center;
+    line-height: 1.7;
+    width: 100%;
+    justify-content: center;
+}
+
+.proposta h1 {
+    font-family: DM Serif Display, serif;
+    font-size: 70px;
+}
+
+.proposta p {
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* ------------ PÁGINA DOS INTERESSES ------------ */
+
+.intbanner {
+    font-family: Alexandria, sans-serif;
+    color: white;
+    text-shadow: black 2px 0 10px;
+    font-size: 15px;
+    background-image: url("img/pokemon go.jpeg");
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    align-items: center;
+    padding: 0 10%;
+    padding-top: 130px;
+    padding-bottom: 140px;
+    text-align: center;
+    line-height: 1.7;
+    width: 100%;
+    justify-content: center;
+}
+
+.intbanner h1 {
+    font-family: DM Serif Display, serif;
+    font-size: 70px;
+}
+
+.intbanner p {
+    max-width: 1283px;
+    margin: auto;
+}
+
+.partebranca {
+    font-family: Alexandria, sans-serif;
+    background-color: #f3f5f5;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    justify-content: center;
+}
+
+.partebranca-div {
+    padding: 0 7%;
+    color: gray;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.partebranca-div h1 {
+    color: black;
+    font-family: DM Serif Display, serif;
+    font-size: 60px;
+    line-height: 1.2;
+}
+
+.partebranca-div h2 {
+    color: white;
+    font-family: DM Serif Display, serif;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.partepreta {
+    font-family: Alexandria, sans-serif;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    justify-content: center;
+}
+
+.partepreta-div {
+    padding: 0 3%;
+    color: gray;
+    line-height: 1.7;
+    text-align: right;
+    max-width: 600px;
+}
+
+.partepreta-div h1 {
+    color: white;
+    font-family: DM Serif Display, serif;
+    font-size: 60px;
+}
+
+.partepreta-div h2 {
+    color: white;
+    font-family: DM Serif Display, serif;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.foto-interesses {
+    border-radius: 12px;
+    height: auto;
+    width: 500px;
+}
+
+/* ------------ PÁGINA DO ACADEMICO ------------ */
+
+.acadbanner {
+    font-family: Alexandria, sans-serif;
+    color: white;
+    text-shadow: black 2px 0 10px;
+    font-size: 15px;
+    background-image: url("img/html.png");
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    align-items: center;
+    padding: 0 10%;
+    padding-top: 130px;
+    padding-bottom: 140px;
+    text-align: center;
+    line-height: 1.7;
+    width: 100%;
+    justify-content: center;
+}
+
+.acadbanner h1 {
+    font-family: DM Serif Display, serif;
+    font-size: 70px;
+}
+
+.acadbanner p {
+    max-width: 1283px;
+    margin: auto;
+}
+
+.carrossel {
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: auto;
+    width: 600px;
+    border-radius: 12px;
+}
+
+.container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+img {
+    object-fit: cover;
+    height: auto;
+    width: 600px;
+}
+
+/* ------------ PÁGINA DE CONTATO ------------- */
+
+.contato {
+    width: 900px;
+    min-height: 450px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    box-shadow: 1px 1px 50px #dddddd;
+    font-family: Montserrat, sans-serif;
+    margin: auto;
+    margin-top: -70px;
+}
+
+.centralizar {
+    margin: auto;
+    width: 100%;
+}
+
+.centralizar h2 {
+    color: black;
+    font-family: DM Serif Display, serif;
+    font-size: 40px;
+    line-height: 1.7;
+}
+
+.centralizar h3 {
+    color: black;
+    font-family: DM Serif Display, serif;
+    font-size: 30px;
+    line-height: 1.7;
+}
+
+.texto-com-icon {
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+/* ------------ CONSTRUÇÃO DO FOOTER ------------ */
+
+.footer {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 10%;
+    background-color: #101218;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-family: Alexandria, sans-serif;
+}
+
+.footbar a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.footbar a.active {
+    color: dodgerblue;
+}
+
+.links a {
+    color: white;
+    font-size: 28px;
+    margin: 12px
+}
+
+/* ------------ FIM DO FOOTER ------------ */
+
+.content {
+    max-width: 1283px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
